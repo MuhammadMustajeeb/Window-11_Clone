@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+    background: url("./images/blue_bg.png");
+    background-size: cover;
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 110;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    /*margin: 6px 0;
+    height: 85%;*/
+}
+
+.start-menu{
+    position: absolute;
+    bottom: -410px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.start-menu img{
+    height: 70vmin;
+    border-radius: 8px;
+}
+
+.video{
+    width: 100vw;
+    height: 100vh;
+}
+
+.icons{
+    margin: 5px 0;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+}
+
+.icons img{
+    width: 70px;
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+.icons .txt{
+    font-size: 14px;
+    color: white;
+    font-family: inherit;
+    text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+
